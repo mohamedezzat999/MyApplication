@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".EditWorkerProfileActivity"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backoo">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/WorkerPhotoEdit"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logotwo"
+            app:civ_border_color="#d8cb98"
+            app:civ_border_width="1.5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/WorkerDataEdit"
+            android:orientation="vertical"
+            android:layout_below="@+id/WorkerPhotoEdit"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerNameEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"
+                    android:hint="Name"
+                    android:text="Suzan Adel"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Phone Number"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerPhoneEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Phone Number"
+                    android:text="01234567890"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Password"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerPasswordEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Password"
+                    android:password="true"
+                    android:text="PaSsBa2a"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Address"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerAddressEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Address"
+                    android:text="bla bla bla , bla "
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Gender"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2">
+
+
+                    <RadioButton
+                        android:id="@+id/rbmale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Male"
+                        android:textSize="18dp"
+                        android:onClick="onRadioButtonClicked"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/rbfemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Female"
+                        android:textSize="18dp"
+                        android:onClick="onRadioButtonClicked"
+                        android:textStyle="bold" />
+
+
+
+                </RadioGroup>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Job"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerEditJop"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"
+                    android:hint="Cost Per Hour"
+                    android:numeric="decimal"
+                    android:inputType="number"
+                    android:text="jop"
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Price"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerCostEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Cost Per Hour"
+                    android:numeric="decimal"
+                    android:inputType="number"
+                    android:text="20.5"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Experience Level"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerExperienceEdit"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Name"
+                    android:text="2"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <com.iambedant.text.OutlineTextView
+                    android:id="@+id/item9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="2dp"
+                    android:text="Biography"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimaryTwo"
+                    android:textColorHighlight="@android:color/black"
+                    android:textColorHint="#80000000"
+                    android:textSize="19dp"
+                    android:textStyle="bold"
+                    app:outlineColor="@android:color/black"
+                    app:outlineWidth="0.4"/>
+
+                <EditText
+                    android:id="@+id/WorkerBioEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/background_border_two"                    android:hint="Biography"
+                    android:text="Experince and fluent"
+
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SubmitWorkerEdit"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/WorkerDataEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_border"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/White" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

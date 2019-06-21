@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="Clients_ar">Close</string>
+
+    <string name="mobile_ar">هاتق</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backoo"
+    android:orientation="vertical"
+    tools:context=".SelectionActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logotwo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/clint" />
+
+    <ImageButton
+        android:id="@+id/imageButtonWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/worker" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButtonCar"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/Black"
+        app:civ_border_width="4dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/route"/>
+
+</LinearLayout>

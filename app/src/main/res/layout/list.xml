@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:id="@+id/icon"
+            android:layout_height="70dp"
+            android:padding="20dp"/>
+
+        <com.iambedant.text.OutlineTextView
+            android:id="@+id/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:layout_marginTop="2dp"
+            android:text="Medium Text"
+            android:layout_marginLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimaryTwo"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="#80000000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:outlineColor="@android:color/black"
+            app:outlineWidth="0.4"/>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

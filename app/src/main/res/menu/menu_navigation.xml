@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/notifications"
+            android:title="Edit My Profile"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/sessions"
+            android:title="Settings"
+            android:icon="@drawable/ic_setting"/>
+        <item
+            android:id="@+id/contact"
+            android:title="Search For Workers"
+            android:icon="@android:drawable/ic_menu_call"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Log out"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+</menu>
